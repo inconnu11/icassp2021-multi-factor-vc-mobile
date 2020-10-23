@@ -19,7 +19,7 @@ Your browser does not support the audio element.
 </audio>
 <div>
 
-![image](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P%2BR%2BT/test_withOUT_C.jpg)
+![Source_1](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P%2BR%2BT/test_withOUT_C.jpg)
 
 
 * Target Speech
@@ -29,7 +29,7 @@ Your browser does not support the audio element.
 </audio>
 <div>
 
-![image](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P%2BR%2BT/test_withOUT_C.jpg)
+![Target_1](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P%2BR%2BT/test_withOUT_C.jpg)
 
 
 * Baseline approach
