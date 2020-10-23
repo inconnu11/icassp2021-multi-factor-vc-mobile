@@ -18,8 +18,7 @@ Text: Xu Wen please share your answer with us.
 Your browser does not support the audio element.
 </audio>
 
-
-![Source_1](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P+R+T/test_withOUT_C.jpg?raw=true)
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg",height=300 , width=300>
 
 
 * Target Speech
