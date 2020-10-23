@@ -19,7 +19,7 @@ Your browser does not support the audio element.
 </audio>
 <div>
 
-![image](images/Demo_1/Source/p225_p225_331_source_1.jpg)
+![image](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P%2BR%2BT/test_withOUT_C.jpg)
 
 
 * Target Speech
@@ -27,9 +27,9 @@ Your browser does not support the audio element.
   <source src="audios/Demo_1/Source/p225_003_001.wav" />
 Your browser does not support the audio element.
 </audio>
-region img { 
-<img src="images/Demo_1/Source/p225_p225_331_source_1.jpg",height=500 , width=300>
-} region
+<div>
+
+![image](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P%2BR%2BT/test_withOUT_C.jpg)
 
 
 * Baseline approach
@@ -37,9 +37,9 @@ region img {
   <source src="audios/Demo_1/Source/p225_003_001.wav" />
 Your browser does not support the audio element.
 </audio>
-region img { 
-<img src="images/Demo_1/Source/p225_p225_331_source_1.jpg",height=500 , width=300>
-} region
+<div>
+
+![image](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P%2BR%2BT/test_withOUT_C.jpg)
 
 
 * Proposed approach
@@ -47,10 +47,9 @@ region img {
   <source src="audios/Demo_1/Source/p225_003_001.wav" />
 Your browser does not support the audio element.
 </audio>
-region img { 
-<img src="images/Demo_1/Source/p225_p225_331_source_1.jpg",height=500 , width=300>
-} region
+<div>
 
+![image](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P%2BR%2BT/test_withOUT_C.jpg)
 
 
 #### Explanation
