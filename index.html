@@ -1,0 +1,322 @@
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!DOCTYPE html>
+<html>
+	<style type="text/css">
+		#img_h{
+			display:none;
+		}
+		</style>
+	<head>
+		<title>MAP:Demo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+					</header>
+
+				<!-- Menu -->
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>SPEECH REPRESENTATION LEARNING FOR ROBUST MULTI-FACTOR VOICE CONVERSION - <font color = #58c3c2> Demo</font></h1>
+							<font size = 5><p><i> Jie Wang </i></p></font>
+							<p></p>
+							<br></br>
+							<section>
+								<h2><font size = 5 color= #58c3c2>Paper</font></h2>
+								<p>Our Paper is <a href=" ">here</a>.
+							</section>
+							<!-- Text -->
+							    <section>
+								<a name="traditional"></a>
+							    	<h2><font size = 5 color= #58c3c2>Conversion Tasks</font></h2>
+							    	<p>(Section x.x in the paper)</p>
+							    	<p>Our goal is to compare MAP-Module-<font style="font-variant: small-caps">SPEECHFLOW</font> against the original <font style="font-variant: small-caps">SPEECHFLOW</font>, in many conversion task.</p>
+							    	<ul class="12u 12u$(medium)">
+										<li><b><font style="font-variant: small-caps">MAP-Module-SPEECHFLOW</font></b> - the proposed conversion algorithm</li>
+										<li><b><font style="font-variant: small-caps">SPEECHFLOW</font></b> - the original conversion algorithm</li>
+									</ul>
+									<p>Below are a few demo audios.</p>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													
+													<th><font color= #58c3c2>Task</font></th>
+													<th><font color= #58c3c2 >Proposed</font></th>
+													<th><font color= #58c3c2 >Baseline</font></th>
+													<th><font color= #58c3c2>GroundTruth</font></th>
+									
+												</tr>
+											</thead>
+
+											<tbody>
+
+												<tr>
+													<td>Rhythm</td>
+													<td><audio id ="audio"  controls=""><source src="audios/Demo_1/Proposed/Rhythm/p225xp226_star_u003001.mp3" /><embed height="50" ></embed></audio>
+														<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg",height=300 , width=300></td>
+													<td><audio id ="audio"   controls=""><source src="audios/Demo_1/Baseline/Rhythm/p225xp226_star_u003001.mp3" /><embed height="50"></embed></audio>
+														<img src="images/Demo_1/Baseline/",height=300 , width=300></td>
+													
+													<td rowspan="7">Source:p225 (Female) <audio id ="audio" controls=""><source src="audios/Demo_1/Source/p225_003_001.wav" /><embed height="50"  width="100"></embed></audio>
+													<img src="images/Demo_1/Source/p225_p225_331_source_1.jpg",height=500 , width=300>  
+													<br>
+													Target:p226 (Male) <audio id ="audio" controls=""><source src="audios/Demo_1/Target/p225_002.wav" /><embed height="50" width="100"></embed></audio>
+													<img src="images/Demo_1/Target/p225_p225_331_source_1.jpg",height=500 , width=300></td>
+													
+												</tr>
+												<tr>
+													<td>Pitch</td>
+													<td><audio id ="audio"  controls=""><source src="audios/Pitch/p225xp226_cae_u003001.mp3" /><embed height="50" src="audios/cae/p225xp226_cae_u003001.mp3" ></embed></audio>
+														
+														<!-- <button οnclick="Buckinghide()" type="button" id="h_button">Img</button>
+															<div id="img_h" style="border:2px solid #ff0000;"> -->
+														<img src="images/P/test_withOUT_C.jpg",height=300 , width=300>
+															<!-- </div> -->
+													</td>
+													
+													<td><audio id ="audio"  controls=""><source src="audios/Pitch/p225xp226_cae_u003001.mp3" /><embed height="50" src="audios/cae/p225xp226_cae_u003001.mp3" ></embed></audio>
+												
+													<img src="images/P/test_withOUT_C.jpg",height=300 , width=300></td>
+												</tr>
+												<tr>
+													<td>Timbre</td>
+													<td><audio id ="audio"  controls=""><source src="audios/Timbre/p225xp226_chou_u003001.mp3" /><embed height="50" src="audios/star/p225xp226_star_u003001.mp3" ></embed></audio>
+														<img src="images/T/test_withOUT_C.jpg",height=300 , width=300></td>
+													</td>
+													
+													<td><audio id ="audio"  controls=""><source src="audios/Timbre/p225xp226_chou_u003001.mp3" /><embed height="50" src="audios/star/p225xp226_star_u003001.mp3" ></embed></audio>
+														<img src="images/T/test_withOUT_C.jpg",height=300 , width=300></td>
+													</td>
+												</tr>
+												<tr>
+													<td>P+T</td>
+													<td><audio id ="audio"  controls=""><source src="audios/P+T/p225xp226_cae_u001.wav" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/P+T/test_withOUT_C.jpg",height=300 , width=300></td>
+													
+													<td><audio id ="audio"  controls=""><source src="audios/P+T/p225xp226_cae_u001.wav" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/P+T/test_withOUT_C.jpg",height=300 , width=300></td>
+												</tr>
+												<tr>
+													<td>P+R</td>
+													<td><audio id ="audio"  controls=""><source src="audios/P+R/p225xp226_ours_u003001.mp3" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/P+R/test_withOUT_C.jpg",height=300 , width=300></td>
+													
+													<td><audio id ="audio"  controls=""><source src="audios/P+R/p225xp226_ours_u003001.mp3" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/P+R/test_withOUT_C.jpg",height=300 , width=300></td>
+												</tr>
+												<tr>
+													<td>R+T</td>
+													<td><audio id ="audio"  controls=""><source src="audios/R+T/p225xp226_ours_u003001.mp3" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/R+T/test_withOUT_C.jpg",height=300 , width=300></td>
+													
+													<td><audio id ="audio"  controls=""><source src="audios/R+T/p225xp226_ours_u003001.mp3" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/R+T/test_withOUT_C.jpg",height=300 , width=300></td>
+												</tr>
+												<tr>
+													<td>P+R+T</td>
+													<td><audio id ="audio"  controls=""><source src="audios/R+P+T/p225xp226_ours_u003001.mp3" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/P+R+T/test_withOUT_C.jpg",height=300 , width=300></td>
+													
+													<td><audio id ="audio"  controls=""><source src="audios/R+P+T/p225xp226_ours_u003001.mp3" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/P+R+T/test_withOUT_C.jpg",height=300 , width=300></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+
+
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													
+													<th><font color= #58c3c2>Task</font></th>
+													<th><font color= #58c3c2 >Proposed</font></th>
+													<th><font color= #58c3c2 >Baseline</font></th>
+													<th><font color= #58c3c2>GroundTruth</font></th>
+									
+												</tr>
+											</thead>
+
+											<tbody>
+
+												<tr>
+													<td>Rhythm</td>
+													<td><audio id ="audio"  controls=""><source src="audios/Rhythm/p225xp226_star_u003001.mp3" /><embed height="50" src="audios/ours/p225xp270_ours_u006001.mp3" ></embed></audio>
+														<img src="images/R/test_withOUT_C.jpg",height=300 , width=300></td>
+													<td><audio id ="audio"   controls=""><source src="audios/Rhythm/p225xp226_star_u003001.mp3" /><embed height="50" src="audios/ours/p225xp270_ours_u006001.mp3" ></embed></audio>
+														<img src="images/R/test_withOUT_C.jpg",height=300 , width=300></td>
+													
+													<td rowspan="7">Source:p225 (Female) <audio id ="audio" controls=""><source src="audios/ground_1/p225_003_001.wav" /><embed height="50" src="audios/ground_1/p225_003_001.wav" width="100"></embed></audio>
+													<img src="images/mel_spec/p225_p225_331_source_1.jpg",height=500 , width=300>  
+													<br>
+													Target:p226 (Male) <audio id ="audio" controls=""><source src="audios/ground_2/p225_002.wav" /><embed height="50" src="audios/ground_2/p226_002.wav" width="100"></embed></audio>
+													<img src="images/mel_spec/p225_p225_331_source_1.jpg",height=500 , width=300></td>
+													
+												</tr>
+												<tr>
+													<td>Pitch</td>
+													<td><audio id ="audio"  controls=""><source src="audios/Pitch/p225xp226_cae_u003001.mp3" /><embed height="50" src="audios/cae/p225xp226_cae_u003001.mp3" ></embed></audio>
+														
+														<!-- <button οnclick="Buckinghide()" type="button" id="h_button">Img</button>
+															<div id="img_h" style="border:2px solid #ff0000;"> -->
+														<img src="images/P/test_withOUT_C.jpg",height=300 , width=300>
+															<!-- </div> -->
+													</td>
+													
+													<td><audio id ="audio"  controls=""><source src="audios/Pitch/p225xp226_cae_u003001.mp3" /><embed height="50" src="audios/cae/p225xp226_cae_u003001.mp3" ></embed></audio>
+												
+													<img src="images/P/test_withOUT_C.jpg",height=300 , width=300></td>
+												</tr>
+												<tr>
+													<td>Timbre</td>
+													<td><audio id ="audio"  controls=""><source src="audios/Timbre/p225xp226_chou_u003001.mp3" /><embed height="50" src="audios/star/p225xp226_star_u003001.mp3" ></embed></audio>
+														<img src="images/T/test_withOUT_C.jpg",height=300 , width=300></td>
+													</td>
+													
+													<td><audio id ="audio"  controls=""><source src="audios/Timbre/p225xp226_chou_u003001.mp3" /><embed height="50" src="audios/star/p225xp226_star_u003001.mp3" ></embed></audio>
+														<img src="images/T/test_withOUT_C.jpg",height=300 , width=300></td>
+													</td>
+												</tr>
+												<tr>
+													<td>P+T</td>
+													<td><audio id ="audio"  controls=""><source src="audios/P+T/p225xp226_cae_u001.wav" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/P+T/test_withOUT_C.jpg",height=300 , width=300></td>
+													
+													<td><audio id ="audio"  controls=""><source src="audios/P+T/p225xp226_cae_u001.wav" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/P+T/test_withOUT_C.jpg",height=300 , width=300></td>
+												</tr>
+												<tr>
+													<td>P+R</td>
+													<td><audio id ="audio"  controls=""><source src="audios/P+R/p225xp226_ours_u003001.mp3" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/P+R/test_withOUT_C.jpg",height=300 , width=300></td>
+													
+													<td><audio id ="audio"  controls=""><source src="audios/P+R/p225xp226_ours_u003001.mp3" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/P+R/test_withOUT_C.jpg",height=300 , width=300></td>
+												</tr>
+												<tr>
+													<td>R+T</td>
+													<td><audio id ="audio"  controls=""><source src="audios/R+T/p225xp226_ours_u003001.mp3" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/R+T/test_withOUT_C.jpg",height=300 , width=300></td>
+													
+													<td><audio id ="audio"  controls=""><source src="audios/R+T/p225xp226_ours_u003001.mp3" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/R+T/test_withOUT_C.jpg",height=300 , width=300></td>
+												</tr>
+												<tr>
+													<td>P+R+T</td>
+													<td><audio id ="audio"  controls=""><source src="audios/R+P+T/p225xp226_ours_u003001.mp3" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/P+R+T/test_withOUT_C.jpg",height=300 , width=300></td>
+													
+													<td><audio id ="audio"  controls=""><source src="audios/R+P+T/p225xp226_ours_u003001.mp3" /><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" ></embed></audio>
+													
+														<img src="images/P+R+T/test_withOUT_C.jpg",height=300 , width=300></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+
+
+									
+
+									<a href="#" class="button special">Back to Top</a>
+									<a href="#traditional" class="button special">Back to Section Start</a>
+									<br></br><br></br>
+								</section>
+								
+								<section>
+								<a name="f0-control"></a>
+									<h2><font size = 5 color= #58c3c2>F0-Control</font></h2>
+									<p>(Section 3.1.3 in the paper)</p>
+									<p>We are able to control the converted F0 by modifying the conditioned F0. <br> For demonstration purpose, we simply modify the conditioned F0 to be a constant value.</p>
+
+									<p>Below are a few demo audios.</p>
+									<div class="table-wrapper">
+										<table>
+											<tbody>
+												<tr>
+													<td><audio controls=""><source src="audios/flat/p225xp226_cae_u001.wav" /><embed height="50" src="audios/flat/p225xp226_cae_u001.wav" width="100"></embed></audio></td>
+													<td><audio controls=""><source src="audios/flat/p225xp227_cae_u003001.wav" /><embed height="50" src="audios/flat/p225xp227_cae_u003001.wav" width="100"></embed></audio></td>
+													<td><audio controls=""><source src="audios/flat/p225xp228_cae_u006001.wav" /><embed height="50" src="audios/flat/p225xp228_cae_u006001.wav" width="100"></embed></audio>
+													</td>
+												</tr>
+
+											</tbody>
+										</table>
+									</div>
+
+
+
+
+
+									
+
+									<a href="#" class="button special">Back to Top</a>
+									<a href="#traditional" class="button special">Back to Section Start</a>
+									<br></br><br></br>
+								</section>
+								
+						
+								
+								
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script type="text/javascript">
+				function Buckinghide(){
+					
+					var obu = document.getElementById("h_button")
+					var odiv=document.getElementById("img_h");
+					if(odiv.style.display=="none"){
+       					odiv.style.display="block";
+      					obt.value="隐藏模块";
+   					 }
+					else{
+					odiv.style.display="none";
+					obt.value="显示模块";
+					}
+				}
+			</script>		  
+
+	</body>
+</html>
