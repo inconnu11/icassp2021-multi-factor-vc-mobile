@@ -17,9 +17,10 @@ Text: Xu Wen please share your answer with us.
   <source src="audios/Demo_1/Source/p225_003_001.wav" />
 Your browser does not support the audio element.
 </audio>
-region img { 
-<img src="images/Demo_1/Source/p225_p225_331_source_1.jpg",height=500 , width=300>
-} region
+<div>
+
+![image](images/Demo_1/Source/p225_p225_331_source_1.jpg)
+
 
 * Target Speech
 <audio controls>
