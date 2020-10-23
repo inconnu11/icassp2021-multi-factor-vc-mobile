@@ -1,29 +1,56 @@
 # icassp2021-multi-factor-vc
 Please visit https://thuhcsi.github.io/icassp2021-multi-factor-vc/
-## Samples of synthesized speech
+# SPEECH REPRESENTATION LEARNING FOR ROBUST MULTI-FACTOR VOICE CONVERSION
+
+
 ## MAP:Demo
 
 ### Sample 1
 
 #### Text
+Text: Xu Wen please share your answer with us.
 
-Chinese: 徐文跟我们分享一下你的答案吧。
+#### Synthesized in Rhythm conversion task
 
-English Translation: Xu Wen please share your answer with us.
+* Source Speech
+<audio controls>
+  <source src="audios/Demo_1/Source/p225_003_001.wav" />
+Your browser does not support the audio element.
+</audio>
+region img { 
+<img src="images/Demo_1/Source/p225_p225_331_source_1.jpg",height=500 , width=300>
+} region
 
-#### Synthesized speech
+* Target Speech
+<audio controls>
+  <source src="audios/Demo_1/Source/p225_003_001.wav" />
+Your browser does not support the audio element.
+</audio>
+region img { 
+<img src="images/Demo_1/Source/p225_p225_331_source_1.jpg",height=500 , width=300>
+} region
+
 
 * Baseline approach
 <audio controls>
-  <source src="https://github.com/thuhcsi/interspeech2019-tts-samples/raw/master/sample1-baseline.wav" type="audio/wav">
+  <source src="audios/Demo_1/Source/p225_003_001.wav" />
 Your browser does not support the audio element.
 </audio>
+region img { 
+<img src="images/Demo_1/Source/p225_p225_331_source_1.jpg",height=500 , width=300>
+} region
+
 
 * Proposed approach
 <audio controls>
-  <source src="https://github.com/thuhcsi/interspeech2019-tts-samples/raw/master/sample1-proposed.wav" type="audio/wav">
+  <source src="audios/Demo_1/Source/p225_003_001.wav" />
 Your browser does not support the audio element.
 </audio>
+region img { 
+<img src="images/Demo_1/Source/p225_p225_331_source_1.jpg",height=500 , width=300>
+} region
+
+
 
 #### Explanation
 
