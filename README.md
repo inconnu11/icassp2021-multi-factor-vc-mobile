@@ -19,7 +19,7 @@ Your browser does not support the audio element.
 </audio>
 <div>
 
-![Source_1](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P%2BR%2BT/test_withOUT_C.jpg)
+![Source_1](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P+R+T/test_withOUT_C.jpg?raw=true)
 
 
 * Target Speech
@@ -54,14 +54,8 @@ Your browser does not support the audio element.
 
 #### Explanation
 
-The baseline approach has word tokenization error around the 3-rd character,
-resulting in pause deletion between the 2-nd and the 3-rd characters and improper pause insertion between the 3-rd and 4-th characters,
-changing the meaning to `Xu Wen Gen we share your answer`.
+...tbc
 
-The baseline approach also has syllable pronunciation error at the 8-th character,
-incorrectly predicting the pronunciation of the character from `yi2` to `yi4`.
-
-The proposed system has synthesized the speech with expected pronunciations and pauses.
 
 ### Sample 2
 
