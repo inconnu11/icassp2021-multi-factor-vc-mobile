@@ -28,17 +28,20 @@ Your browser does not support the audio element.
   <source src="audios/Demo_1/Source/p225_003_001.wav" />
 Your browser does not support the audio element.
 </audio>
-
+<details>
+<summary>CLICK ME TO SHOW IMG</summary>
 <img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=150 width=250/>
-
+</details>
 
 * Baseline approach
 <audio controls>
   <source src="audios/Demo_1/Source/p225_003_001.wav" />
 Your browser does not support the audio element.
 </audio>
-
+<details>
+<summary>CLICK ME TO SHOW IMG</summary>
 <img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=150 width=250/>
+</details>
 
 * Proposed approach
 <audio controls>
@@ -46,8 +49,54 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 
+<details>
+<summary>CLICK ME TO SHOW IMG</summary>
 <img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=150 width=250/>
+</details>
 
+#### Synthesized in **Timbre** conversion task
+
+* Source Speech
+<audio controls>
+  <source src="audios/Demo_1/Source/p225_003_001.wav" />
+Your browser does not support the audio element.
+</audio>
+<details>
+<summary>CLICK ME TO SHOW IMG</summary>
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=150 width=250/>
+</details>
+
+
+* Target Speech
+<audio controls>
+  <source src="audios/Demo_1/Source/p225_003_001.wav" />
+Your browser does not support the audio element.
+</audio>
+<details>
+<summary>CLICK ME TO SHOW IMG</summary>
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=150 width=250/>
+</details>
+
+* Baseline approach
+<audio controls>
+  <source src="audios/Demo_1/Source/p225_003_001.wav" />
+Your browser does not support the audio element.
+</audio>
+<details>
+<summary>CLICK ME TO SHOW IMG</summary>
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=150 width=250/>
+</details>
+
+* Proposed approach
+<audio controls>
+  <source src="audios/Demo_1/Source/p225_003_001.wav" />
+Your browser does not support the audio element.
+</audio>
+
+<details>
+<summary>CLICK ME TO SHOW IMG</summary>
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=150 width=250/>
+</details>
 
 #### Explanation
 
