@@ -18,7 +18,7 @@ Text: Xu Wen please share your answer with us.
 Your browser does not support the audio element.
 </audio>
 
-<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=300 width=300/>
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=250 width=150/>
 
 
 * Target Speech
@@ -27,7 +27,8 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 
-<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=300 width=300/>
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=250 width=150/>
+
 
 
 * Baseline approach
@@ -37,7 +38,8 @@ Your browser does not support the audio element.
 </audio>
 
 
-<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=300 width=300/>
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=250 width=150/>
+
 
 
 * Proposed approach
@@ -46,7 +48,8 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 
-<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=300 width=300/>
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=250 width=150/>
+
 
 #### Explanation
 
