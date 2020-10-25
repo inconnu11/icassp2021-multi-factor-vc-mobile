@@ -18,6 +18,7 @@ Text: Xu Wen please share your answer with us.
 Your browser does not support the audio element.
 </audio>
 <details>
+<summary>CLICK ME TO SHOW IMG</summary>
 <img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=150 width=250/>
 </details>
 
