@@ -10,7 +10,7 @@ Please visit https://thuhcsi.github.io/icassp2021-multi-factor-vc/
 #### Text
 Text: Xu Wen please share your answer with us.
 
-#### Synthesized in Rhythm conversion task
+#### Synthesized in **Rhythm** conversion task
 
 * Source Speech
 <audio controls>
@@ -18,8 +18,7 @@ Text: Xu Wen please share your answer with us.
 Your browser does not support the audio element.
 </audio>
 
-<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=250 width=150/>
-
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=150 width=250/>
 
 * Target Speech
 <audio controls>
@@ -27,8 +26,7 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 
-<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=250 width=150/>
-
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=150 width=250/>
 
 
 * Baseline approach
@@ -37,10 +35,7 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 
-
-<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=250 width=150/>
-
-
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=150 width=250/>
 
 * Proposed approach
 <audio controls>
@@ -48,7 +43,7 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 
-<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=250 width=150/>
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=150 width=250/>
 
 
 #### Explanation
