@@ -27,8 +27,7 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 
-
-![Target_1](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P%2BR%2BT/test_withOUT_C.jpg)
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=300 width=300/>
 
 
 * Baseline approach
@@ -38,7 +37,7 @@ Your browser does not support the audio element.
 </audio>
 <div>
 
-![image](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P%2BR%2BT/test_withOUT_C.jpg)
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=300 width=300/>
 
 
 * Proposed approach
@@ -47,9 +46,7 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 <div>
-
-![image](https://github.com/thuhcsi/icassp2021-multi-factor-vc/blob/main/images/Demo_1/Baseline/P%2BR%2BT/test_withOUT_C.jpg)
-
+<img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=300 width=300/>
 
 #### Explanation
 
