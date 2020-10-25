@@ -35,7 +35,7 @@ Your browser does not support the audio element.
   <source src="audios/Demo_1/Source/p225_003_001.wav" />
 Your browser does not support the audio element.
 </audio>
-<div>
+
 
 <img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=300 width=300/>
 
@@ -45,7 +45,7 @@ Your browser does not support the audio element.
   <source src="audios/Demo_1/Source/p225_003_001.wav" />
 Your browser does not support the audio element.
 </audio>
-<div>
+
 <img src="images/Demo_1/Proposed/R/test_withOUT_C.jpg" height=300 width=300/>
 
 #### Explanation
